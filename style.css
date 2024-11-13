@@ -1,0 +1,295 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
+
+.heading-primary{
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.heading {
+  display: block;
+  font-size: 4rem;
+  font-weight: 500;
+  color: #cf711f;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+  text-align: center;
+  justify-self: center;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  border: none;
+  transition: all 0.5s;
+  background-color: #e67e22;
+  color: white;
+}
+
+.btn:hover, .btn:active {
+  background-color: #cf711f;
+}
+
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  line-height: 1.2;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
+/* HELPER/SETTINGS CLASSES */
+
+
+.center-text {
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
+}
+
+
+
+
+.container, .navbar-brand-dark{
+  margin: 20px;
+  font-size: 15px;
+  color:#333;
+  font-weight: 500;
+  justify-content: space-between;
+
+}
+.navbar{
+  padding: 20px;
+  margin:0;
+}
+.nav-item{
+  padding: 20px;
+  font-size: 1.6em;
+  font-weight: 500;
+}
+.nav-item:link, .nav-item:visited, .navbar-brand-dark:link {
+  color: #333;
+  font-size: 1.6em;
+  text-decoration: none;
+  margin: 0;
+  border-radius: 10px 10px;
+}
+
+.nav-item:hover,.nav-item:active, .navbar-brand-dark:hover {
+  color: #cf711f;
+  font-size: 1.6em;
+  text-decoration: none;
+}
+
+/* main */
+.heading {
+  display: block;
+  font-size: 4rem;
+  font-weight: 500;
+  color: #cf711f;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+/* meals */
+.card{
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px 10px 10px 10px;
+  width: 28rem;
+  color: #000000;
+  box-shadow: 0 4px 8px 0 rgba(154, 154, 154, 0.2), 0 6px 20px 0 rgba(171, 170, 170, 0.19);
+  transition: transform .3s ease-in-out; /* Animation */
+}
+
+.card:hover {
+  transform: scale(1.05); 
+}
+/* fba929 */
+.card-img-top{
+  width: 28rem;
+  height: 25rem;
+  align-self: center;
+  border-radius: 10px 10px 0px 0px;
+
+}
+.card-body{
+  margin: 15px;
+}
+.add-cart-btn{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 100;
+  padding: 1.1rem;
+  border-radius: 9px;
+  border: none;
+  transition: all 0.5s;
+  background-color: #e67e22;
+  color: white;
+}
+
+.add-cart-btn:hover, .add-cart-btn:active {
+  background-color: #cf711f;
+}
+
+.d-flex{
+  padding: 5px;
+  justify-content: space-around;
+}
+
+.price, .rating{
+  /* justify-content: flex-end;
+  align-items: flex-end; */
+  text-align: right;
+}
+
+/*main*/
+.main {
+  background-color: #fdf2e9;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.main-content {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 4.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+  text-align: center;
+}
+
+.main-content-description {
+  font-size: 2rem;
+  line-height: 1.0;
+  margin-bottom: 4.8rem;
+}
+
+.main-content-img {
+  width: 80%;
+}
+
+/* meals */
+#meals{
+  padding: 40px;
+  overflow: auto;
+}
+
+/* login */
+.login{
+  display: block;
+  margin: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 80%;
+  justify-self: center;
+}
+.login-form {
+  display: block;
+  border-radius: 10px;
+  background-color: #EA9345;
+  margin: 10px 50px 10px 50px;
+  padding: 10px;
+  width: 100%;
+  justify-self: center;
+}
+.label{
+  font-size: 15px;
+  color: #555;
+  color: black;
+
+}
+
+.form-group{
+  padding: 10px;
+}
+
+#inputt{
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #FDF3E8;
+}
+
+.oldAccText:link{
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  
+}
+

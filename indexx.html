@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bistro</title>
+
+  <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    </head>
+    
+    <body>
+
+        <nav class="navbar navbar-expand-sm" style="  background-color: #FDF2E9;">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand-dark"><img src="images/logo.png">Bistro</a>
+                <nav class="navbar-nav ml-auto">
+                <a class="nav-item" href="#">Home</a>
+                <a class="nav-item" href="#">Cart</a>
+                <a class="nav-item" href="#">Profile</a>
+                <a class="nav-item nav-cta" href="login.html">Login</a>
+                <!-- <li><a class="nav-item nav-cta" href="#cta">Try for free</a></li> -->
+                </nav>
+            </div>
+        </nav>
+
+        <!-- <main> -->
+        <section class="main">
+            <div class="main-content">
+                <div class="main-content-text-box">
+                    <h1 class="heading-primary">It's not just food it's an Experience!</h1>
+                    <p class="main-content-description">
+                        The best delicious food that meets your needs, order now.
+                    </p>
+                    <a href="#cta" class="btn btn--full margin-right-sm">Order Now </a>
+                </div>
+                <div class="main-content-img-box">
+                    <picture>
+                        <img src="images/burger.png" class="main-content-img"/>
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <!-- </meals> -->
+        <section class="meals" id="meals">
+            <!-- <div class="container"> -->
+                <div class="container-fluid center-text" style="justify-self: center;">
+                    <h2 class="heading" >Order Fresh Food</h2>
+                </div>
+
+                <div class="d-flex flex-row bd-highlight mb-3">
+                    <!-- item 1.1 -->
+                    <div class="p-2 bd-highlight">
+                        <div class="card" >
+                            <img src="images/pancake.jpg" class="card-img-top" alt="Pancakes">
+                            <div class="card-body d-flex flex-row">
+                                <div style="width: 70%;">
+                                    <h4 class="card-title">Pancakes</h4>
+                                    <p class="card-text">Some quick example text to build on the card title.</p>
+                                    <button class="add-cart-btn" type="button">Add to cart</a>
+                                </div>
+                                <div style="width: 30%;">
+                                    <h5 class="price" style="height: 80%;">&#x20B9 100</h5>
+                                    <p class="rating" style="height: 20%;">
+                                        <span><strong>⭐(4.5)</strong></span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item 1.2 -->
+                    <div class="p-2 bd-highlight">
+                        <div class="card" >
+                            <img src="images/hot-chocolate.jpg" class="card-img-top" alt="Chocolate Shake">
+                            <div class="card-body d-flex flex-row">
+                                <div style="width: 70%;">
+                                    <h4 class="card-title">Chocolate Shake</h4>
+                                    <p class="card-text">Some quick example text to build on the card title.</p>
+                                    <button class="add-cart-btn" type="button">Add to cart</a>
+                                </div>
+                                <div style="width: 30%;">
+                                    <h5 class="price" style="height: 80%;">&#x20B9 60</h5>
+                                    <p class="rating" style="height: 20%;">
+                                        <span><strong>⭐(4.5)</strong></span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item 1.3 -->
+                    <div class="p-2 bd-highlight">
+                        <div class="card" >
+                            <img src="images/ricebowl.jpg" class="card-img-top" alt="Rice Bowl">
+                            <div class="card-body d-flex flex-row">
+                                <div style="width: 70%;">
+                                    <h4 class="card-title">Rice Bowl</h4>
+                                    <p class="card-text">Some quick example text to build on the card title.</p>
+                                    <button class="add-cart-btn" type="button">Add to cart</a>
+                                </div>
+                                <div style="width: 30%;">
+                                    <h5 class="price" style="height: 80%;">&#x20B9 200</h5>
+                                    <p class="rating" style="height: 20%;">
+                                        <span><strong>⭐(4.5)</strong></span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item 1.4 -->
+                    <div class="p-2 bd-highlight">
+                        <div class="card" >
+                            <img src="images/dumplings.jpg" class="card-img-top" alt="Dumplings">
+                            <div class="card-body d-flex flex-row">
+                                <div style="width: 70%;">
+                                    <h4 class="card-title">Dumplings</h4>
+                                    <p class="card-text">Some quick example text to build on the card title.</p>
+                                    <button class="add-cart-btn" type="button">Add to cart</a>
+                                </div>
+                                <div style="width: 30%;">
+                                    <h5 class="price" style="height: 80%;">&#x20B9 160</h5>
+                                    <p class="rating" style="height: 20%;">
+                                        <span><strong>⭐(4.5)</strong></span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row bd-highlight">
+                    <!-- item 2.1 -->
+                    <div class="p-2 bd-highlight">
+                        <div class="card" >
+                            <img src="images/ramenjpg.jpg" class="card-img-top" alt="Ramen">
+                            <div class="card-body d-flex flex-row">
+                                <div style="width: 70%;">
+                                    <h4 class="card-title">Ramen</h4>
+                                    <p class="card-text">Some quick example text to build on the card title.</p>
+                                    <button class="add-cart-btn" type="button">Add to cart</a>
+                                </div>
+                                <div style="width: 30%;">
+                                    <h5 class="price" style="height: 80%;">&#x20B9. 300</h5>
+                                    <p class="rating" style="height: 20%;">
+                                        <span><strong>⭐(4.5)</strong></span>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                <!-- item 2.2 -->
+                <div class="p-2 bd-highlight">
+                    <div class="card" >
+                        <img src="images/salad.jpg" class="card-img-top" alt="Fruit Salad">
+                        <div class="card-body d-flex flex-row">
+                            <div style="width: 70%;">
+                                <h4 class="card-title">Fruit Salad</h4>
+                                <p class="card-text">Some quick example text to build on the card title.</p>
+                                <button class="add-cart-btn" type="button">Add to cart</a>
+                            </div>
+                            <div style="width: 30%;">
+                                <h5 class="price" style="height: 80%;">&#x20B9 60</h5>
+                                <p class="rating" style="height: 20%;">
+                                    <span><strong>⭐(4.5)</strong></span>
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- item 2.3 -->
+                <div class="p-2 bd-highlight">
+                    <div class="card" >
+                        <img src="images/croissants.jpg" class="card-img-top" alt="Croissants">
+                        <div class="card-body d-flex flex-row">
+                            <div style="width: 70%;">
+                                <h4 class="card-title">Croissants</h4>
+                                <p class="card-text">Some quick example text to build on the card title.</p>
+                                <button class="add-cart-btn" type="button">Add to cart</a>
+                            </div>
+                            <div style="width: 30%;">
+                                <h5 class="price" style="height: 80%;">&#x20B9 300</h5>
+                                <p class="rating" style="height: 20%;">
+                                    <span><strong>⭐(4.5)</strong></span>
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- item 2.4 -->
+                <div class="p-2 bd-highlight">
+                    <div class="card" >
+                        <img src="images/burger.jpg" class="card-img-top" alt="Burger">
+                        <div class="card-body d-flex flex-row">
+                            <div style="width: 70%;">
+                                <h4 class="card-title">Burger</h4>
+                                <p class="card-text">Some quick example text to build on the card title.</p>
+                                <button class="add-cart-btn" type="button">Add to cart</a>
+                            </div>
+                            <div class="price-rating" style="width: 30%;">
+                                <h5 class="price" style="height: 80%;">&#x20B9 90</h5>
+                                <p class="rating" style="height: 20%;">
+                                    <span><strong>⭐(4.5)</strong></span>
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="p-2 bd-highlight">Flex item 1</div>
+                <div class="p-2 bd-highlight">Flex item 2</div>
+                <div class="p-2 bd-highlight">Flex item 3</div> -->
+                </div>
+            <!-- </div> -->
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-body-tertiary text-muted" style="background-color: #FDF2E9;">
+        <!-- <div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div>
+            <a href="" class="icon">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="icon">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="icon">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="" class="icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="icon">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            </div>
+        </div> -->
+
+        <div class="text-center p-4" >
+            <a class="text-reset fw-bold" href="#">Made with ❤️ by Mrunmayi</a>
+        </div>
+        </footer>
+
+    </body>
+</html>
